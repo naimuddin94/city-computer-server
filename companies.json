@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Asus",
+    "image": "https://images.unsplash.com/photo-1582203422342-1541a90a0103?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advertisement": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Gaming PC Bundle",
+        "short_description": "Get a high-end gaming PC, mechanical keyboard, and gaming mouse for a special price."
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1632187952109-9470c7a01b23?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Laptop Trade-In",
+        "short_description": "Trade in your old laptop and get a discount on a brand new one."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Tech Support Membership",
+        "short_description": "Subscribe to our tech support plan for priority service and exclusive discounts."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hp",
+    "image": "https://images.unsplash.com/photo-1654277040981-82984a49c63a?auto=format&fit=crop&q=80&w=2062&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advertisement": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1634003309801-2bf5185d0eec?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Custom PC Builds",
+        "short_description": "Design your own custom PC and get 10% off on assembly and components."
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1552831388-6a0b3575b32a?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Monitor Upgrade",
+        "short_description": "Upgrade your monitor and get a free calibration service."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Software Workshop",
+        "short_description": "Join our software workshop and get a free software license of your choice."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Intel",
+    "image": "https://images.unsplash.com/photo-1646627928017-969b372e2727?auto=format&fit=crop&q=80&w=1856&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advertisement": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1555617778-02518510b9fa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "SSD Upgrade",
+        "short_description": "Upgrade your computer with a lightning-fast SSD and experience faster performance."
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1650094980833-7373de26feb6?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Printer Bundle",
+        "short_description": "Purchase a printer and get a pack of high-quality printing paper for free."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1540829917886-91ab031b1764?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Antivirus Subscription",
+        "short_description": "Subscribe to our antivirus plan and get a special discount on your first year."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gigabyte",
+    "image": "https://images.unsplash.com/photo-1620448955540-b910e76a9602?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advertisement": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1651873811841-bf59e1a972db?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Graphics Card Sale",
+        "short_description": "Upgrade your graphics card and get 15% off on select models."
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1641853256879-bd786e77d852?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Webcam Giveaway",
+        "short_description": "Purchase any laptop and get a high-quality webcam for free."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1596184661965-27fbeca89723?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Data Backup Service",
+        "short_description": "Sign up for our data backup service and get 50GB of cloud storage for free."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Msi",
+    "image": "https://images.unsplash.com/photo-1648149015806-01bb7136b590?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advertisement": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1611323209413-689ad3c2e8f0?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Networking Solutions",
+        "short_description": "Upgrade your home network with our advanced networking solutions and get a free router."
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Software Bundle",
+        "short_description": "Purchase any computer with our software bundle and save up to 30%."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Loyalty Rewards",
+        "short_description": "Join our loyalty program and earn points for every purchase."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Samsung",
+    "image": "https://images.unsplash.com/photo-1661347998423-b15d37d6f61e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advertisement": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&q=80&w=2012&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "VR Gaming Experience",
+        "short_description": "Experience immersive VR gaming with our specially curated bundle at a discounted price."
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Gaming Accessories",
+        "short_description": "Buy any gaming PC and get 20% off on gaming accessories."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Extended Warranty",
+        "short_description": "Get an extended warranty on all products for peace of mind."
+      }
+    ]
+  }
+]

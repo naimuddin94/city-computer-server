@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "image": "banner1.jpg",
+    "image": "https://i.postimg.cc/mrVjN0P1/slider-img.png",
     "title": "Discover the Latest Tech",
     "short_description": "Explore a wide range of cutting-edge technology products at our store. From powerful laptops to high-performance gaming rigs, we have it all to meet your computing needs."
   },
   {
     "id": 2,
-    "image": "banner2.jpg",
+    "image": "https://i.postimg.cc/xdHJ9H2f/p9.png",
     "title": "Upgrade Your Workspace",
     "short_description": "Transform your workspace with our premium selection of monitors, ergonomic accessories, and productivity-enhancing gadgets. Elevate your work experience with top-notch peripherals."
   },
   {
     "id": 3,
-    "image": "banner3.jpg",
+    "image": "https://i.postimg.cc/jSbB8YSM/p6.png",
     "title": "Game On with Gaming Gear",
     "short_description": "Immerse yourself in the world of gaming with our high-performance gaming PCs, consoles, accessories, and peripherals. Get ready for an unparalleled gaming experience like never before."
   }

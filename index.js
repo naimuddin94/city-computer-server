@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const banner = require("./banner.json");
+const companies = require("./companies.json");
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -13,6 +14,10 @@ app.get("/", (req, res) => {
 
 app.get("/banner", (req, res) => {
   res.send(banner);
+});
+
+app.get("/companies", (req, res) => {
+  res.send(companies);
 });
 
 app.listen(port, () => {
