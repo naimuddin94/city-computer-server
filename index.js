@@ -48,6 +48,27 @@ async function run() {
       res.send(result);
     });
 
+    app.patch("/update/:id", async (req, res) => {
+      const id = req.params.id;
+      const { name, photo, brand, category, price, description, rating } =
+        req.body;
+      const filter = { _id: new ObjectId(id) };
+      const updateProduct = {
+        $set: {
+          name,
+          photo,
+          brand,
+          category,
+          price,
+          description,
+          rating,
+        },
+      };
+
+      const result = await productCollection.updateOne(filter, updateProduct);
+      res.send(result);
+    });
+
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
