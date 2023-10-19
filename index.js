@@ -23,10 +23,15 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
+    // create product collection
     const productCollection = client
       .db("productDB")
       .collection("productCollection");
 
+    // create cart collection
+    const cartCollection = client.db("cartDB").collection("cartCollection");
+
+    // get product by name
     app.get("/brands/:name", async (req, res) => {
       const name = req.params.name;
       const query = { brand: name };
@@ -35,6 +40,7 @@ async function run() {
       res.send(result);
     });
 
+    // get product by name
     app.get("/products/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) };
@@ -42,12 +48,37 @@ async function run() {
       res.send(result);
     });
 
+    // get cart product by email address
+    app.get("/carts/:email", async (req, res) => {
+      const queryEmail = req.params.email;
+      const query = { email: queryEmail };
+      const cursor = cartCollection.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    app.delete("/carts/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: id };
+      const result = await cartCollection.deleteOne(query);
+      res.send(result);
+    });
+
+    // saved product to database
     app.post("/products", async (req, res) => {
       const product = req.body;
       const result = await productCollection.insertOne(product);
       res.send(result);
     });
 
+    // saved card to database with user email address
+    app.post("/carts", async (req, res) => {
+      const cart = req.body;
+      const result = await cartCollection.insertOne(cart);
+      res.send(result);
+    });
+
+    // update product by id
     app.patch("/update/:id", async (req, res) => {
       const id = req.params.id;
       const { name, photo, brand, category, price, description, rating } =
